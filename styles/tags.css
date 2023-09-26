@@ -1,0 +1,28 @@
+.tags{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 8px;
+
+}
+.tags div{
+    background-color: rgb(233, 233, 233);
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.tags p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;   
+    font-size: 15px;
+}
+.tags div:hover{
+    background-color: rgb(215, 215, 215);
+}
