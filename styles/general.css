@@ -67,4 +67,17 @@
     padding-bottom: 3px;
     padding-right: 5px;
     border-radius: 5px;
+
+}
+
+@media (max-width:700px) {
+    .content-container{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
 }

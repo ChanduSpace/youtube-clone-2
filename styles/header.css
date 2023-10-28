@@ -130,3 +130,37 @@
     vertical-align: middle;
     cursor: pointer;
 }
+
+@media (max-width:700px) {
+    .header-container{
+        width: 420px;
+    }
+    .hamburger-img{
+        display: none;
+    }
+    .youtube-logo{
+        margin-left: 10px;
+    }
+    .center-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 200px;
+    }
+    .upload-icon{
+        display: none;
+    }
+    .apps-icon{
+        display: none;
+    }
+    .right-section{
+        margin-left: 0px;
+        justify-content: end;
+        width: 80px;
+        margin-right: 3px;
+        gap: 18px;
+    }
+    .left-section{
+        width: auto;
+    }
+
+}
